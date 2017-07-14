@@ -2,7 +2,7 @@
 
 ## Functionaltiy of files:
 
-**media.py**: A class that includes the title, image, tralier of movies is defined
+**media.py**: A class that includes the title, image, trailer of movies is defined
 
 **fresh_tomatoes.py**: Receive a list of movies and show them in **fresh_tomatoes.html**
 
