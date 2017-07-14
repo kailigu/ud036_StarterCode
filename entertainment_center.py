@@ -1,6 +1,7 @@
 import fresh_tomatoes
 import media
 
+#Create movie instances
 frozen = media.Movie("Frozen","http://t0.gstatic.com/images?q=tbn:ANd9GcTIaSaZM-kGnMKWNNMW9-_yv008JrEh58Ab3DAV1geUNJvXeyXS",
                               "https://www.youtube.com/watch?v=FLzfXQSPBOg")
 
@@ -19,5 +20,8 @@ zootopia = media.Movie("Zootopia","http://t2.gstatic.com/images?q=tbn:ANd9GcQj1f
 inside = media.Movie("Inside Out","http://t0.gstatic.com/images?q=tbn:ANd9GcTtZdvrahQxfjGkSBJCS-uiZKUfJNH4ddsqgCbV5oFkQiQ-tszE",
                      "https://www.youtube.com/watch?v=yRUAzGQ3nSY")
 
+#Create a list of movies
 movies = [frozen,short,nemo,stellar,zootopia,inside]
+
+#Show movies in a html file
 fresh_tomatoes.open_movies_page(movies)
