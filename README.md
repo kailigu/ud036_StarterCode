@@ -10,4 +10,9 @@
 
 ## How to run:
 
-Run **entertainment_center.py**, and one **fresh_tomatoes.html** will be created. Open **fresh_tomatoes.html** in broswer. 
+Run **entertainment_center.py** in terminal:
+~~~~
+python entertainment_center.py
+~~~~
+
+One **fresh_tomatoes.html** will be created. Open **fresh_tomatoes.html** in broswer to view the website. 
